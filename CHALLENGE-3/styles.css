@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; ;
+}
+.logo{
+   display: flex;
+   justify-self: center;
+   margin-top: 10%;
+   margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.text{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color:#6c727f ;
+}
+.email{
+    width: 70%;
+    margin: 60px auto;
+    box-shadow: 2px 2px 20px #E5E7EB;
+    padding:20px 10px;
+    border-radius: 10px;
+}
+.email input, .email button{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: none;
+}
+.email input{
+    background-color: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    font-size: 16px;
+    font-weight: 500;
+}
+.email input::placeholder{
+    color:black;
+}
+.email button{
+    background-color: #284BCE;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.email p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #394150;
+    margin: 10px 0;
+}
