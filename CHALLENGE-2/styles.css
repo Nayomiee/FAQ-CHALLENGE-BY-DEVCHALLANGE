@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Allerta+Stencil&family=Chathura:wght@100;300;400;700;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+body{
+    display: flex;
+    font-size: 14px;
+    color: #394150;
+}
+.card{
+    width: 336px;
+    box-shadow: 2px 2px 10px grey;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 10px;
+    position: relative;
+    margin-top: 25%;
+    height: 50vh;
+}
+.card img{
+    border-radius: 8px;
+    margin: 5px auto 10px;
+    width: 100%;
+}
+.card button{
+    background-color: #F2EAFD;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color:#7C19EE ;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+.card h2{
+    margin: 0 0 5px;
+    font-size: 18px;
+    color: black;
+}
+.card hr{
+    margin: 10px 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-bottom: 30px;
+    color: #E5EAF0;
+}
+.card .name{
+   position: relative;
+   top: 5%;
+}
